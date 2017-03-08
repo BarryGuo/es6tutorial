@@ -117,7 +117,7 @@ fetch('http://example.com', {})
 // "GET"
 
 fetch('http://example.com')
-// 报错
+// 报错 TypeError: Cannot match against 'undefined' or 'null'.
 ```
 
 上面代码中，如果函数`fetch`的第二个参数是一个对象，就可以为它的三个属性设置默认值。
